@@ -39,7 +39,7 @@ class BotConfig:
     MIN_DISTANCE = 20
     
     # Window settings
-    FIVEM_WINDOW_TITLE = "FiveM® by Cfx.re - COMMU6"
+    FIVEM_WINDOW_TITLE = "FiveM® by Cfx.re - GOOD TOWN BY GOOD TEAM"
     
     DEBUG_MODE = False
     

@@ -17,7 +17,7 @@ from config import APP_CONFIG
 class Config:
     GITHUB_OWNER: str = "Kasidetx"
     GITHUB_REPO: str = "jexter"
-    CURRENT_VERSION: str = "2.0.0"
+    CURRENT_VERSION: str = "2.0.1"
     INSTALL_DIR: Path = Path(__file__).parent.absolute()
     REQUEST_TIMEOUT: int = 30
     MAX_RETRIES: int = 3
@@ -377,7 +377,6 @@ del "%~f0"'''
         except Exception as e:
             messagebox.showerror("ข้อผิดพลาด", f"ไม่สามารถเปิดแอปหลัก: {e}")
             sys.exit(1)
-
 
 def main():
     try:
